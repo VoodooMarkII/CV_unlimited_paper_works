@@ -58,6 +58,6 @@ def download_paper(papers):
                 f.write(supp_r.content)
 
 
-if __name__ == '__main__':
-    papers_info = get_papers_info("http://openaccess.thecvf.com/CVPR2018.py")
+def main(argv="http://openaccess.thecvf.com/CVPR2018.py"):
+    papers_info = get_papers_info(argv)
     download_paper(papers_info)
