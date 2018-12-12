@@ -9,7 +9,7 @@ I tested it by downloading CVPR 2018 papers. It should workwork on other CVF con
 祝各位科研开坑愉快。
 ## How to Use
 ### Environment
-**Python:**  (2.7.3+ or 3.2.2+ are better for using 'html.parser' to parse.)
+**Python:**  (2.7.3+ or 3.2.2+ is better for using 'html.parser' to parse.)
 
 **Beautiful Soup 4:** Install bs4
 
@@ -23,6 +23,7 @@ $ pip install beautifulsoup4
 python main.py url
 ```
 * `url`  The url of the conference papers page of the CVF. (Open Access version)
+Default setting is downloading CVPR 2018.
 
 #### Example
 
